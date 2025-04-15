@@ -16,13 +16,13 @@
 - [Key Metrics](#key-metrics)
 - [Dashboard Overview](#dashboard-overview)
 - [Insights & Recommendations](#insights-and-recommendations)
-- 
+
 ## Project Presentation
 This project presents an interactive dashboard for tracking and analyzing patient wait lists across various medical specialties. It provides real-time insights into trends, case distributions, and overall demand for healthcare services.
 
 ## Live Dashboard:
 
-Checkout the live dashboard here 👉🏻 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTQyODU5OGMtMGQ1My00OTkyLTk0ZTItN2I2MDZiMDY1Yjg3IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
+Checkout the live dashboard here 👉🏻 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNzJmZDFmNTEtZTFmNy00MmZkLWFlNzgtNTc5NGUyNTFhMTM2IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9)
   
 ## Tools & Technique:
 ### Data Analysis:
@@ -51,17 +51,9 @@ AtliQ Hardware, a fast-growing electronics company, currently relies on Excel fi
 This project could be leveraged as a subscription-based service for healthcare facilities seeking actionable insights into patient flow and wait list management.
 
 <p align="center">
-<img src="https://github.com/Deepthi3245/Business--Insight--360/blob/d10c0f170d5b5428d4ff418140eded3602cf4a27/Projects%20Views/ATLIQ.png" >
+<img src="https://github.com/Deepthi3245/Hospital-Wait-List/blob/main/Data%20Modeling/Inpatient%20-vs-%20Outpatient.jpg?raw=true" >
 </p>
 
-#### Retail: Third-party stores (e.g., Croma, Amazon).
-#### Direct: AtliQ-owned stores (e.g., AtliQ e-store).
-#### Distributor: Agencies handling international distribution (e.g., Neptune in countries with import restrictions).
-
-AtliQ manufactures computer hardware and distributes its products through various channels:
-<p align="center">
-<img src="https://github.com/Deepthi3245/Business--Insight--360/blob/d10c0f170d5b5428d4ff418140eded3602cf4a27/Projects%20Views/ATLIQ%202.png" >
-</p>
 
 ## Feature Requests
 Future improvements may include:
@@ -73,20 +65,10 @@ Future improvements may include:
 ## Data Source
 Data is aggregated from hospital records, patient management systems, and external healthcare databases.
 
-Internal AtliQ Database: Contains both fact and dimension tables for sales, inventory, and financial data.
-<p align="center">
-<img src="https://github.com/Deepthi3245/Business--Insight--360/blob/3f25349aa2c18342a8473e8fbfa24c95a4029c69/Database-Structure/database%201.png" >
-</p>
-
-<p align="center">
-<img src="https://github.com/Deepthi3245/Business--Insight--360/blob/3f25349aa2c18342a8473e8fbfa24c95a4029c69/Database-Structure/database%202.png" >
-</p>
-External Data: Additional .xlsx/.csv files for benchmark and market share data. The fiscal year for AtliQ starts in September, with data spanning from FY 2018 to FY 2022. Sales data is available through December 2021.
-
 ## Data Modeling
 Structured datasets are modeled using SQL and cleaned using Python (pandas). The data is then processed to generate insights used in dashboard visualizations.
 <p align="center">
-<img src="https://github.com/Deepthi3245/Business--Insight--360/blob/d10c0f170d5b5428d4ff418140eded3602cf4a27/Data%20Modeling/Data%20modeling%20gif.mp4" >
+<img src="https://github.com/Deepthi3245/Hospital-Wait-List/blob/main/Data%20Modeling/Data%20Modeling.png?raw=true" >
 </p>
 
 
@@ -99,16 +81,19 @@ Structured datasets are modeled using SQL and cleaned using Python (pandas). The
 
 
 ## Dashboard Overview:
-<p align="center"> Home Page </p>
+<p align="center"> Summary View </p>
 <p align="center">
-  <img src="https://github.com/Deepthi3245/Business--Insight--360/blob/d10c0f170d5b5428d4ff418140eded3602cf4a27/Projects%20Views/Home.png">
+  <img src="https://github.com/Deepthi3245/Hospital-Wait-List/blob/main/Project%20Views/Summary%20page.png?raw=true">
 </p>
 
-<p align="center"> <strong>Finance Page </strong></p>
-<p align="center"> Get P & L statement for any customer / product / country or aggregation of the above over any time period and More. </p>
-
+<p align="center"> Detail View </p>
 <p align="center">
-  <img src="https://github.com/Deepthi3245/Business--Insight--360/blob/d10c0f170d5b5428d4ff418140eded3602cf4a27/Projects%20Views/Finance.png">
+  <img src="https://github.com/Deepthi3245/Hospital-Wait-List/blob/main/Project%20Views/Detail%20View.png?raw=true">
+</p>
+
+<p align="center"> ToolTip </p>
+<p align="center">
+  <img src="https://github.com/Deepthi3245/Hospital-Wait-List/blob/main/Project%20Views/Tooltip.png?raw=true">
 </p>
 
 ## Dashboard Overview
